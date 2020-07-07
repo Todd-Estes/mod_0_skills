@@ -1,23 +1,23 @@
 class Glass
 
 Attributes
-color
-total_weight (string)
+color (string)
+total_weight (float)
 glass_weight (string)
 liquid_weight (float)
 max_volume (integer)
 current_volume (float)
+empty (boolean)
 
 Methods
 calc_total_weight
 (By adding glass_weight with liquid_weight, we modify the total_weight attribute)
 
 add_liquid
-(By adding liquid to the glass, we modify the current_volume, total_weight, and liquid_weight attributes)
+(By adding liquid to the glass, we modify the current_volume, total_weight, liquid_weight, empty, and color attributes)
 
 drink_liquid
-(By drinking liquid from the glass, we modify the total_weight, current_volume, and
-liquid_weight attributes)
+(By drinking liquid from the glass, we modify the total_weight, current_volume, liquid_weight, and empty attributes)
 
 break_glass
-(By breaking the glass, we modify the max_volume attribute)
+(By breaking the glass, we modify the max_volume, color, total_weight, liquid_weight, current_volume, and empty attributes)
