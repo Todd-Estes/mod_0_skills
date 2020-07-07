@@ -1,0 +1,15 @@
+instance 1 = steak
+
+weight = 12
+flavor = "raw"
+aroma = "none"
+delicious = False
+shape = "flat"
+
+cook
+
+weight = 9
+flavor = "tangy"
+aroma = "buttery"
+delicious = true
+shape = "curled"
