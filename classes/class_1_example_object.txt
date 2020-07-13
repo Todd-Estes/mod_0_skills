@@ -9,12 +9,16 @@ max_volume = 20
 current_volume = 12
 empty = false
 
-drink_liquid
+beer_glass.drink_liquid
+current_volume = 0.01
 
-color= "opaque white"
-total_weight = 12
-glass_weight = 12
-liquid_weight = 0
-max_volume = 20
-current_volume = 0
-empty = true
+beer_glass.calc_total_weight
+total_weight = 22.2
+(glass_weight + liquid_weight)
+
+
+beer_glass.add_liquid
+current_volume = 16.5
+
+beer_glass.break_glass
+max_volume = 0

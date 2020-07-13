@@ -9,13 +9,13 @@ shape (string)
 
 Methods
 cut
-(By cutting the food, the weight and shape attributes are modified)
+(By cutting the food, the shape attribute is modified)
 
 taste
-(By tasting the food, the flavor and delicious attributes are modified)
+(By tasting the food, the delicious attribute is modified)
 
 spoil
-(By letting the food spoil, the flavor, aroma, and delicious attributes are modified)
+(By letting the food spoil, the aroma attribute is modified)
 
 cook
-(By cooking the food, all of the above attributes are modified)
+(By cooking the food, the weight attribute is modified)

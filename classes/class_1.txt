@@ -14,10 +14,10 @@ calc_total_weight
 (By adding glass_weight with liquid_weight, we modify the total_weight attribute)
 
 add_liquid
-(By adding liquid to the glass, we modify the current_volume, total_weight, liquid_weight, empty, and color attributes)
+(By adding liquid to the glass, we modify the current_volume attribute)
 
 drink_liquid
-(By drinking liquid from the glass, we modify the total_weight, current_volume, liquid_weight, and empty attributes)
+(By drinking liquid from the glass, we modify the current_volume attribute)
 
 break_glass
-(By breaking the glass, we modify the max_volume, color, total_weight, liquid_weight, current_volume, and empty attributes)
+(By breaking the glass, we modify the max_volume attribute)
